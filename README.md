@@ -18,6 +18,9 @@ The study performs standard regression analysis within OLS method after prelimin
 * run_script.sh
    README.md
 
+# Reproducibility
+For the sake of time and nerves, the one-click script "rin_script" was created, which allows to install the necessary environment and carry out data cleaning and analysis process automatically. The only thing the user should do is get down to main folder where the script is located and run the command: *bash run_script.sh*   
+
 # Data Source
 ### [World Values Survey Wave 7 (2017-2022) Variables Report V6.0](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp) 
 The World Values Survey (WVS) is a global research project that explores people's values and beliefs, how they change over time, and what social and political impact they have. Since 1981 a worldwide network of social scientists have conducted representative national surveys as part of WVS in almost 100 countries.
