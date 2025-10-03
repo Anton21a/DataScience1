@@ -33,17 +33,17 @@ name: data-analysis
 channels: [conda-forge, defaults]
 dependencies:
   - python=3.11
-  - numpy=1.26.*
-  - pandas=2.2.*
-  - scikit-learn=1.4.*
-  - matplotlib=3.8.*
-  - seaborn=0.13.*
-  - statsmodels=0.14.*
-  - jupyterlab=4.2.*
+  - numpy=1.26.
+  - pandas=2.2.
+  - scikit-learn=1.4.
+  - matplotlib=3.8.
+  - seaborn=0.13.
+  - statsmodels=0.14.
+  - jupyterlab=4.2.
   - pip
   - pip:
-      - pyarrow==16.*     # if you read/write parquet/feather
-      - openpyxl==3.1.*   # if you read Excel
+      - pyarrow==16.
+      - openpyxl==3.1.
 
 # Data Description and References
 
