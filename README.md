@@ -71,6 +71,7 @@ The following section is explanation of addidng each control:
 * Religion. Religion influences values, coping mechanisms, and social support — all linked to happiness. Religious affiliation may also affect financial attitudes (e.g., materialism vs. spiritual satisfaction). If not controlled, differences in happiness by religion could bias the financial satisfaction coefficient.
 
 The results of regression are shown below: 
+
 | Variable | Coef. | Std. Err. | t | P>|t| | 95% CI (Lower) | 95% CI (Upper) | Interpretation |
 |----------|-------|-----------|---|-----|----------------|----------------|----------------|
 | Intercept | 2.849 | 0.055 | 52.13 | 0.000 | 2.742 | 2.956 | Baseline predicted happiness when all predictors are at reference levels |
