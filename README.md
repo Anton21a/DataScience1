@@ -72,13 +72,12 @@ The following section is explanation of addidng each control:
 
 The results of regression are shown below: 
 
-### 📊 OLS Regression Results  
-
 **Dependent variable:** Happiness (Q46, 1 = very happy → 4 = not at all happy)
 
-| Variable | Coef. | Std. Err. | t | P>|t| | 95% CI Lower | 95% CI Upper | Interpretation |
-|----------|-------|-----------|---|-----|---------------|--------------|----------------|
+| Variable | Coef. | Std. Err. | t | P>\|t\| | 95% CI Lower | 95% CI Upper | Interpretation |
+|---|---:|---:|---:|---:|---:|---:|---|
 | Intercept | 2.849 | 0.055 | 52.13 | 0.000 | 2.742 | 2.956 | Baseline predicted happiness |
+| **Financial satisfaction (ref = 1: completely dissatisfied)** | | | | | | | |
 | Satisfaction = 2 | -0.178 | 0.070 | -2.54 | 0.011 | -0.315 | -0.040 | Slightly higher financial satisfaction → happier |
 | Satisfaction = 3 | -0.448 | 0.061 | -7.37 | 0.000 | -0.567 | -0.328 | Effect grows stronger |
 | Satisfaction = 4 | -0.575 | 0.058 | -9.92 | 0.000 | -0.688 | -0.461 | — |
@@ -88,17 +87,20 @@ The results of regression are shown below:
 | Satisfaction = 8 | -0.988 | 0.051 | -19.30 | 0.000 | -1.089 | -0.888 | — |
 | Satisfaction = 9 | -1.100 | 0.054 | -20.39 | 0.000 | -1.205 | -0.994 | — |
 | Satisfaction = 10 | -1.307 | 0.058 | -22.37 | 0.000 | -1.421 | -1.192 | Very strong effect: very satisfied → much happier |
-| Female (ref = Male) | 0.001 | 0.018 | 0.05 | 0.964 | -0.034 | 0.035 | No significant gender difference |
-| Catholic (ref = None) | -0.095 | 0.021 | -4.49 | 0.000 | -0.137 | -0.054 | Catholics slightly less happy |
-| Protestant (ref = None) | -0.087 | 0.027 | -3.22 | 0.001 | -0.141 | -0.034 | Protestants slightly less happy |
-| Orthodox (ref = None) | 0.036 | 0.065 | 0.56 | 0.576 | -0.091 | 0.164 | No significant difference |
-| Muslim (ref = None) | -0.052 | 0.065 | -0.80 | 0.425 | -0.180 | 0.076 | No significant difference |
-| Hindu (ref = None) | 0.038 | 0.061 | 0.61 | 0.540 | -0.083 | 0.158 | No significant difference |
-| Buddhist (ref = None) | 0.017 | 0.087 | 0.20 | 0.842 | -0.154 | 0.189 | No significant difference |
-| Jewish (ref = None) | 0.062 | 0.082 | 0.76 | 0.451 | -0.099 | 0.223 | No significant difference |
-| Other religion (ref = None) | 0.039 | 0.074 | 0.53 | 0.598 | -0.105 | 0.183 | No significant difference |
-| Missing/Unspecified religion | -0.043 | 0.048 | -0.90 | 0.370 | -0.137 | 0.051 | No significant difference |
-| Age (years) | -0.001 | 0.001 | -1.94 | 0.053 | -0.002 | ~0.000 | Marginal: older respondents slightly less happy |
+| **Gender (ref = Male)** | | | | | | | |
+| Female | 0.001 | 0.018 | 0.05 | 0.964 | -0.034 | 0.035 | No significant gender difference |
+| **Religion (ref = None)** | | | | | | | |
+| Catholic | -0.095 | 0.021 | -4.49 | 0.000 | -0.137 | -0.054 | Catholics slightly less happy |
+| Protestant | -0.087 | 0.027 | -3.22 | 0.001 | -0.141 | -0.034 | Protestants slightly less happy |
+| Orthodox | 0.036 | 0.065 | 0.56 | 0.576 | -0.091 | 0.164 | No significant difference |
+| Muslim | -0.052 | 0.065 | -0.80 | 0.425 | -0.180 | 0.076 | No significant difference |
+| Hindu | 0.038 | 0.061 | 0.61 | 0.540 | -0.083 | 0.158 | No significant difference |
+| Buddhist | 0.017 | 0.087 | 0.20 | 0.842 | -0.154 | 0.189 | No significant difference |
+| Jewish | 0.062 | 0.082 | 0.76 | 0.451 | -0.099 | 0.223 | No significant difference |
+| Other | 0.039 | 0.074 | 0.53 | 0.598 | -0.105 | 0.183 | No significant difference |
+| Missing/Unspecified | -0.043 | 0.048 | -0.90 | 0.370 | -0.137 | 0.051 | No significant difference |
+| **Age (years)** | -0.001 | 0.001 | -1.94 | 0.053 | -0.002 | 0.000 | Marginal: older respondents slightly less happy |
+
 
 
 
