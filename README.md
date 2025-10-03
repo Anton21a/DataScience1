@@ -49,7 +49,7 @@ dependencies:
       - black             # code formatting
       - flake8            # linting
 
-# Data Description
+# Data Description and References
 
 Files constitute the final (6.0) version of the World Values Survey (WVS) wave 7 data release comprising data for 66 countries/territories. Majority of surveys were completed in 2018-2020 with only about a dozen of countries conducting their fieldwork since the pandemic outbreak in 2021-2022. The last included survey comes from India and was completed in July 2023.
 
