@@ -72,22 +72,24 @@ The following section is explanation of addidng each control:
 
 The results of regression are shown below: 
 
-| Variable | Coef. | Std. Err. | t | P>|t| | 95% CI (Lower) | 95% CI (Upper) | Interpretation |
-|----------|-------|-----------|---|-----|----------------|----------------|----------------|
-| Intercept | 2.849 | 0.055 | 52.13 | 0.000 | 2.742 | 2.956 | Baseline predicted happiness when all predictors are at reference levels |
+Dependent variable: Happiness (Q46, 1 = very happy → 4 = not at all happy)
+
+| Variable | Coef. | Std. Err. | t | P>|t| | 95% CI Lower | 95% CI Upper | Interpretation |
+|----------|-------|-----------|---|-----|---------------|---------------|----------------|
+| Intercept | 2.849 | 0.055 | 52.13 | 0.000 | 2.742 | 2.956 | Baseline predicted happiness (reference categories) |
 | Financial satisfaction (ref = 1: completely dissatisfied) | | | | | | | |
-| Satisfaction = 2 | -0.178 | 0.070 | -2.54 | 0.011 | -0.315 | -0.040 | Slightly higher financial satisfaction predicts significantly greater happiness |
-| Satisfaction = 3 | -0.448 | 0.061 | -7.37 | 0.000 | -0.567 | -0.328 | Effect grows stronger as satisfaction increases |
+| Satisfaction = 2 | -0.178 | 0.070 | -2.54 | 0.011 | -0.315 | -0.040 | Slightly higher financial satisfaction → significantly greater happiness |
+| Satisfaction = 3 | -0.448 | 0.061 | -7.37 | 0.000 | -0.567 | -0.328 | Effect grows stronger |
 | Satisfaction = 4 | -0.575 | 0.058 | -9.92 | 0.000 | -0.688 | -0.461 | — |
 | Satisfaction = 5 | -0.684 | 0.054 | -12.64 | 0.000 | -0.790 | -0.578 | — |
 | Satisfaction = 6 | -0.747 | 0.053 | -14.15 | 0.000 | -0.851 | -0.644 | — |
 | Satisfaction = 7 | -0.839 | 0.051 | -16.50 | 0.000 | -0.939 | -0.739 | — |
 | Satisfaction = 8 | -0.988 | 0.051 | -19.30 | 0.000 | -1.089 | -0.888 | — |
 | Satisfaction = 9 | -1.100 | 0.054 | -20.39 | 0.000 | -1.205 | -0.994 | — |
-| Satisfaction = 10 (completely satisfied) | -1.307 | 0.058 | -22.37 | 0.000 | -1.421 | -1.192 | Very strong effect: most satisfied are much happier |
+| Satisfaction = 10 (completely satisfied) | -1.307 | 0.058 | -22.37 | 0.000 | -1.421 | -1.192 | Strongest effect: very satisfied → much happier |
 | Gender (ref = Male) | | | | | | | |
-| Female | 0.001 | 0.018 | 0.05 | 0.964 | -0.034 | 0.035 | No significant gender difference in happiness |
-| Religion (ref = “None”) | | | | | | | |
+| Female | 0.001 | 0.018 | 0.05 | 0.964 | -0.034 | 0.035 | No significant gender difference |
+| Religion (ref = None) | | | | | | | |
 | Catholic | -0.095 | 0.021 | -4.49 | 0.000 | -0.137 | -0.054 | Catholics slightly less happy than non-religious |
 | Protestant | -0.087 | 0.027 | -3.22 | 0.001 | -0.141 | -0.034 | Protestants slightly less happy than non-religious |
 | Orthodox | 0.036 | 0.065 | 0.56 | 0.576 | -0.091 | 0.164 | No significant difference |
@@ -97,4 +99,4 @@ The results of regression are shown below:
 | Jewish | 0.062 | 0.082 | 0.76 | 0.451 | -0.099 | 0.223 | No significant difference |
 | Other | 0.039 | 0.074 | 0.53 | 0.598 | -0.105 | 0.183 | No significant difference |
 | Missing/Unspecified | -0.043 | 0.048 | -0.90 | 0.370 | -0.137 | 0.051 | No significant difference |
-| Age (years) | -0.001 | 0.001 | -1.94 | 0.053 | -0.002 | ~0.000 | Marginally significant: older people slightly less happy |
+| Age (years) | -0.001 | 0.001 | -1.94 | 0.053 | -0.002 | ~0.000 | Marginally significant: older respondents slightly less happy |
