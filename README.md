@@ -1,5 +1,12 @@
 # Name of the course: Data Science 1
 
+# Study
+The study performs standard regression analysis within OLS method after preliminary preprocessing dataset with the give variables. The study question implies the following: how financial satisfactory affects hapiness? To evaluate this effect, the study includes several control variables such that age, gender and religion.
+
+# Structure
+- In folder Data-and-Analysis you find two csv files with raw and preprocessed/clean datasets. In addition the directory includes two ipynb files with data cleaning and main analysis. Before running the code **please be sure** that you are inside the project environment within YAML file (*aka project_environment.yml*) (read more in the chapter **Project Environment** in this README).
+- file *script.sh* is shell script that allows to automate the process of change transfering between Git and GitHub. By default it hat commit message 'Update'. 
+
 # Data Source
 ### [World Values Survey Wave 7 (2017-2022) Variables Report V6.0](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp) 
 The World Values Survey (WVS) is a global research project that explores people's values and beliefs, how they change over time, and what social and political impact they have. Since 1981 a worldwide network of social scientists have conducted representative national surveys as part of WVS in almost 100 countries.
@@ -102,7 +109,6 @@ Response categories: Varies by country, but usually includes major world religio
 - 9 = None
 
 # Analysis Content
-The study performs standard regression analysis within OLS method after preliminary preprocessing dataset with the give variables. The study question implies the following: how financial satisfactory affects hapiness? To evaluate this effect, the study includes several control variables such that age, gender and religion.
 The following section is explanation of addidng each control: 
 * Age. Happiness is known to vary with age — some studies find a U-shaped curve: higher happiness in youth and older age, lower in middle age. If you omit age, you might overestimate or underestimate the financial satisfaction effect, because income/financial security usually increases with age, and age also independently affects happiness
 * Gender. Gender differences exist in both financial situation and reported happiness. For example: Women may report lower financial satisfaction (due to wage gaps) but sometimes equal or higher happiness levels compared to men. Omitting gender would risk confounding: we might falsely attribute gender-driven differences in happiness to financial satisfaction.
