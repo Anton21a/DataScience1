@@ -12,7 +12,9 @@ The study performs standard regression analysis within OLS method after prelimin
 The World Values Survey (WVS) is a global research project that explores people's values and beliefs, how they change over time, and what social and political impact they have. Since 1981 a worldwide network of social scientists have conducted representative national surveys as part of WVS in almost 100 countries.
 
 # Project Environment
-! Please familiarize yourself with the following project space: libraries & pips that should be installed before the running code: 
+! Please familiarize yourself with the following project space: libraries & pips that should be installed before the running code. Note: the environment is defined for more complex data analysis projects that the following, due to this the uploading time varies around 3 minutes. 
+Instruction *How to activate the kernel*: 
+* after moving to the *main* git folder within Anaconda Prompt, run the following command: *Conda activate data-analysis*. P.S be sure that your main directory contains YML file. Aftet that register the kernel within the command: *Python -m ipykernel install –user –name=myproject –display-name “Python (myproject)”. Finally, run *jupyter notebook* and the whole code inside ipynb files. 
 dependencies:
   - python=3.11
   - numpy
