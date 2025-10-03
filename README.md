@@ -5,7 +5,18 @@ The study performs standard regression analysis within OLS method after prelimin
 
 # Structure
 - In folder Data-and-Analysis you find two csv files with raw and preprocessed/clean datasets. In addition the directory includes two ipynb files with data cleaning and main analysis. Before running the code **please be sure** that you are inside the project environment within YAML file (*aka project_environment.yml*) (read more in the chapter **Project Environment** in this README).
-- file *script.sh* is shell script that allows to automate the process of change transfering between Git and GitHub. By default it hat commit message 'Update'. 
+- file *script.sh* is shell script that allows to automate the process of change transfering between Git and GitHub. By default it hat commit message 'Update'.
+
+# Documentation
+DataScience1/
+├─ Data-and-Analysis/
+│  ├─ data_raw.csv
+│  ├─ clean_data.csv         
+│  ├─ cleaning.ipynb
+│  └─ Analysis.ipynb
+├─ project_environment.yml   
+├─ run_script.sh
+└─ README.md
 
 # Data Source
 ### [World Values Survey Wave 7 (2017-2022) Variables Report V6.0](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp) 
@@ -14,7 +25,7 @@ The World Values Survey (WVS) is a global research project that explores people'
 # Project Environment
 ! Please familiarize yourself with the following project space: libraries & pips that should be installed before the running code. Note: the environment is defined for more complex data analysis projects that the following, due to this the uploading time varies around 3 minutes. 
 Instruction *How to activate the kernel*: 
-* after moving to the *main* git folder within Anaconda Prompt, run the following command: *Conda activate data-analysis*. P.S be sure that your main directory contains YML file. Aftet that register the kernel within the command: *Python -m ipykernel install –user –name=myproject –display-name “Python (myproject)”. Finally, run *jupyter notebook* and the whole code inside ipynb files. 
+* after moving to the *main* git folder within Anaconda Prompt, run the following command: *Conda activate data-analysis*. P.S be sure that your main directory contains YML file. Aftet that register the kernel within the command: *Python -m ipykernel install –user –name=myproject –display-name “python (myproject)”. Finally, run *jupyter notebook* and the whole code inside ipynb files. 
 dependencies:
   - python=3.11
   - numpy
