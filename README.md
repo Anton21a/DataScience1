@@ -4,6 +4,44 @@
 ### [World Values Survey Wave 7 (2017-2022) Variables Report V6.0](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp) 
 The World Values Survey (WVS) is a global research project that explores people's values and beliefs, how they change over time, and what social and political impact they have. Since 1981 a worldwide network of social scientists have conducted representative national surveys as part of WVS in almost 100 countries.
 
+# Project Environment
+! Please familiarize yourself with the following project space: libraries & pips that should be installed before the running code: 
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - statsmodels
+  - scipy
+  - sympy
+  - dask
+  - sqlalchemy
+  - requests
+  - beautifulsoup4
+  - pip
+  - pip:
+      - pyarrow           # parquet/feather support
+      - openpyxl          # Excel support
+      - xlrd              # legacy Excel support
+      - pyjanitor         # data cleaning helpers
+      - plotly            # interactive plotting
+      - xgboost           # gradient boosting
+      - lightgbm          # faster gradient boosting
+      - catboost          # categorical boosting
+      - shap              # model explainability
+      - mlflow            # experiment tracking
+      - hydra-core        # config management
+      - streamlit         # quick dashboards
+      - dash              # alternative dashboards
+      - pytest            # testing
+      - black             # code formatting
+      - flake8            # linting
+
 # Data Description
 
 Files constitute the final (6.0) version of the World Values Survey (WVS) wave 7 data release comprising data for 66 countries/territories. Majority of surveys were completed in 2018-2020 with only about a dozen of countries conducting their fieldwork since the pandemic outbreak in 2021-2022. The last included survey comes from India and was completed in July 2023.
