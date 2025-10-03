@@ -8,15 +8,15 @@ The study performs standard regression analysis within OLS method after prelimin
 - file *script.sh* is shell script that allows to automate the process of change transfering between Git and GitHub. By default it hat commit message 'Update'.
 
 # Documentation
-DataScience1/
-├─ Data-and-Analysis/
-│  ├─ data_raw.csv
-│  ├─ clean_data.csv         
-│  ├─ cleaning.ipynb
-│  └─ Analysis.ipynb
-├─ project_environment.yml   
-├─ run_script.sh
-└─ README.md
+* DataScience1/
+* Data-and-Analysis/
+  - data_raw.csv
+  - clean_data.csv         
+  - cleaning.ipynb
+  - Analysis.ipynb
+* project_environment.yml   
+* run_script.sh
+   README.md
 
 # Data Source
 ### [World Values Survey Wave 7 (2017-2022) Variables Report V6.0](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp) 
