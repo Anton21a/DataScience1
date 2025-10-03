@@ -1,7 +1,7 @@
 # Name of the course: Data Science 1
 
 # Study
-The study performs standard regression analysis within OLS method after preliminary preprocessing dataset with the give variables. The study question implies the following: how financial satisfactory affects hapiness? To evaluate this effect, the study includes several control variables such that age, gender and religion.
+The study performs standard regression analysis within OLS method after preliminary preprocessing dataset with the given variables. The study question implies the following: how financial satisfactory affects hapiness? To evaluate this effect, the study includes several control variables such that age, gender and religion.
 
 # Structure
 - In folder Data-and-Analysis you find two csv files with raw and preprocessed/clean datasets. In addition the directory includes two ipynb files with data cleaning and main analysis. Before running the code **please be sure** that you are inside the project environment within YAML file (*aka project_environment.yml*) (read more in the chapter **Project Environment** in this README).
