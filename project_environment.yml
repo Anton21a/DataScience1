@@ -1,0 +1,39 @@
+name: data-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - statsmodels
+  - scipy
+  - sympy
+  - dask
+  - sqlalchemy
+  - requests
+  - beautifulsoup4
+  - pip
+  - pip:
+      - pyarrow           # parquet/feather support
+      - openpyxl          # Excel support
+      - xlrd              # legacy Excel support
+      - pyjanitor         # data cleaning helpers
+      - plotly            # interactive plotting
+      - xgboost           # gradient boosting
+      - lightgbm          # faster gradient boosting
+      - catboost          # categorical boosting
+      - shap              # model explainability
+      - mlflow            # experiment tracking
+      - hydra-core        # config management
+      - streamlit         # quick dashboards
+      - dash              # alternative dashboards
+      - pytest            # testing
+      - black             # code formatting
+      - flake8            # linting
