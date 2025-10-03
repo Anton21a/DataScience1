@@ -29,41 +29,21 @@ The World Values Survey (WVS) is a global research project that explores people'
 ! Please familiarize yourself with the following project space: libraries & pips that should be installed before the running code. Note: the environment is defined for more complex data analysis projects that the following, due to this the uploading time varies around 3 minutes. 
 Instruction *How to activate the kernel*: 
 * after moving to the *main* git folder within Anaconda Prompt, run the following command: *Conda activate data-analysis*. P.S be sure that your main directory contains YML file. Aftet that register the kernel within the command: *Python -m ipykernel install –user –name=myproject –display-name “python (myproject)”. Finally, run *jupyter notebook* and the whole code inside ipynb files. 
+name: data-analysis
+channels: [conda-forge, defaults]
 dependencies:
   - python=3.11
-  - numpy
-  - pandas
-  - scikit-learn
-  - matplotlib
-  - seaborn
-  - jupyterlab
-  - notebook
-  - ipywidgets
-  - statsmodels
-  - scipy
-  - sympy
-  - dask
-  - sqlalchemy
-  - requests
-  - beautifulsoup4
+  - numpy=1.26.*
+  - pandas=2.2.*
+  - scikit-learn=1.4.*
+  - matplotlib=3.8.*
+  - seaborn=0.13.*
+  - statsmodels=0.14.*
+  - jupyterlab=4.2.*
   - pip
   - pip:
-      - pyarrow           # parquet/feather support
-      - openpyxl          # Excel support
-      - xlrd              # legacy Excel support
-      - pyjanitor         # data cleaning helpers
-      - plotly            # interactive plotting
-      - xgboost           # gradient boosting
-      - lightgbm          # faster gradient boosting
-      - catboost          # categorical boosting
-      - shap              # model explainability
-      - mlflow            # experiment tracking
-      - hydra-core        # config management
-      - streamlit         # quick dashboards
-      - dash              # alternative dashboards
-      - pytest            # testing
-      - black             # code formatting
-      - flake8            # linting
+      - pyarrow==16.*     # if you read/write parquet/feather
+      - openpyxl==3.1.*   # if you read Excel
 
 # Data Description and References
 
