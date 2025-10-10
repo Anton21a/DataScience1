@@ -16,7 +16,7 @@ The study performs standard regression analysis within OLS method after prelimin
   - Analysis.ipynb
 * project_environment.yml   
 * run_script.sh
-   README.md
+* README.md
 
 # Reproducibility
 For the sake of time and nerves, the one-click script "rin_script" was created, which allows to install the necessary environment and carry out data cleaning and analysis process automatically. The only thing the user should do is get down to main folder where the script is located and run the command: *bash run_script.sh*   
